@@ -1,0 +1,469 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    max-width: 1400px;
+    margin: auto;
+    font-family: 'Athiti', sans-serif;
+    font-size:1.8rem ;
+}
+h1, h2, h3, h4{
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 2rem;
+}
+
+h4{
+    font-size: 1.8rem;
+    border-bottom: 1px dashed white;
+    padding-bottom: 1rem;
+}
+.footer p{
+    font-size:1.6rem ;
+    text-align: center;
+    line-height: 0.5;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+
+header{
+    
+    display: flex;
+    justify-content: space-around; 
+    padding:4rem 0;
+    background: linear-gradient(to bottom, #d1c7bd 0%, rgb(253, 252, 250) 25%,rgb(255, 255, 255) 100% );
+    
+}
+nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    padding: 1rem;
+    background-color: #ebe3db;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: block;
+}
+
+nav a:hover{
+    background-color: #4c4343;
+    color:white;
+}
+#divlogo{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+#divlogo a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+#logo{
+    width: 30%;
+}
+i{
+    color: #9b0000;
+    font-size: small;
+}
+
+
+#sec2 img {
+    width: 40%;
+    float: right;
+    margin-left: 2rem;
+}
+#sec3 div article{
+    background-color: #ebe2db;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+}
+#art2{
+    margin: 0 2rem;
+}
+    
+
+.figurehome img{
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+}
+.figurehome{
+    position: relative;
+    margin: 0rem;
+}
+.figcaptionhome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    opacity: 0;
+    background-color: rgba(76, 67, 67, 0.9);
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.figurehome:hover .figcaptionhome{
+    opacity: 1;
+}
+.figcaptionhome::after{
+    border: 2px solid white;
+    content: "";
+    top: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    position: absolute;
+}
+#sec3 div article p{
+    font-size: 1.8rem;
+    padding: 0.5rem 3rem;
+    border-bottom: 1px dashed grey;
+     
+}
+
+#sec3 article a{
+    display: block;
+    width: 90%;
+    text-align: center;
+    margin:auto;
+    color: white;
+    text-decoration: none;
+    background-color: #4c4343;
+    padding: 1rem 0;
+    transition: background-color 4s;
+    
+}
+
+#sec3 article a:hover{
+    background-color: #950000;
+}
+
+#sec3 div{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    background-image: url(../images/footer-bg.jpg);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer article{
+    width: 22%;
+}
+.footer article div i{
+    color: white;
+    font-size: x-large;
+    margin-right: 2rem;
+}
+.footer article div{
+    display: flex;
+    justify-content: center;
+}
+
+#logo3wa{
+    width: 5%;
+    margin: auto;
+    padding-top: 2rem;
+}
+footer{
+    text-align: center;
+    background-color: #444444;
+
+}
+#pf{
+    color: white;
+    font-size: small;
+}
+
+/* page About US */
+video{
+    width: 70%;
+    display: block;
+    margin: 4rem auto;
+}
+
+
+#secdinner{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ebe2db;
+    padding-bottom: 3rem; 
+    margin-bottom: 2rem;   
+}
+#secdinner article{
+    width: 50%;
+    text-align: center;
+    }
+
+
+
+#secdinner article:hover{
+    transform: scale(1.1);
+    opacity: 0.7;
+    transition: 3s linear;
+}
+
+
+.figureabout{
+    position: relative;
+    margin: 4rem;
+}
+.figcaptionabout{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -3rem;
+}
+.figureabout:hover .figcaptionabout{
+    transform: translateY(-20rem);
+    font-weight: bold;
+    transition: 3s ease;
+    background-color: white;
+}
+
+#secdinner article figure img{
+    width: 100%;
+    box-shadow: 0 0 2rem gray;
+}
+
+#sec1contact{
+    width: 60%;
+    margin: auto;  
+}
+
+#sec1contact h1, #sec1contact p{
+    text-align: center;
+}
+#sec2contact{
+    padding-bottom: 4rem;
+}
+.form1{
+    width: 45%;
+    margin: 1.5rem auto;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ebe3db;
+    
+}
+.form2{
+    display: flex;
+    width: 100%;
+    margin-top: 1.5rem;
+    border: none;
+    flex-direction: column;
+}
+.form1 input{
+    padding: 1rem 0;
+    border-radius: 0.5rem;
+    max-block-size: 0.9rem;
+}
+#story{
+    margin-top: 1rem;
+
+}
+#ok{
+    width: 40%;
+    margin: 2rem auto;
+    background-color: #4c4343;
+    color: white;
+    padding: 1rem 0;
+    
+}
+legend, label span{
+    font-family: 'Merienda', cursive;
+    font-size: x-large;
+}
+
+label i{
+    font-size: xx-small;
+}
+#guest{
+    padding-left: 0.5rem;
+}
+
+#sec1menus, #sec2menus, #sec3menus, #sec4menus{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#sec2menus article figure img{
+    max-width: 100%;
+}
+#sec3menus article figure img{
+    max-width: 100%;
+}
+#sec4menus article figure img{
+    max-width: 100%;
+}
+#sec2menus article, #sec3menus article, #sec4menus article{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #ebe3db;
+    padding: 1rem;
+    
+}
+.figcaptionmenus img{
+    width: 20%;
+}
+
+.figuremenus{
+    position: relative;
+    margin: 1rem;
+    width: 30%;
+}
+.figcaptionmenus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    opacity: 0;
+    background-color: rgba(76, 67, 67, 0.9);
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.figuremenus:hover .figcaptionmenus{
+    opacity: 1;
+    transform: scale(1.1);
+}
+.figcaptionmenus::after{
+    border: 2px solid white;
+    content: "";
+    top: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    position: absolute;
+}
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:1024px){
+
+    #divlogo, nav{
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+    nav a{
+        width: 100%;
+        text-align: center;
+    }
+    #logo{
+        margin-bottom: 2rem;
+    }
+    header{
+        flex-direction: column;
+       
+    }
+    header div{
+        flex-direction: column;   
+    }
+    #sec2 img{
+      float: none;
+      width: 100%;
+      margin-left: 0rem;
+    }
+    
+
+    #sec3 div{
+        flex-direction: column;
+    }
+    #art2{
+        margin: 0rem;
+    }
+    .form1{
+        width: 40%;
+    }
+
+    
+}
+@media screen and (max-width:767px){
+    header{
+        flex-direction: column;
+    }
+    #divlogo, nav{
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+    header div{
+        flex-direction: column;   
+    }
+    nav{
+        flex-direction: column;   
+    }
+    nav a{
+        width: 100%;
+        text-align: center;
+        padding: 1rem 0rem;
+    }
+    #sec2 img{
+        float: none;
+        width: 100%;
+        margin-left: 0rem;
+      }
+  
+      #sec3 div{
+          flex-direction: column;
+      }
+      #art2{
+          margin: 0rem;
+      }
+      .footer{
+          flex-direction: column;
+      }
+      .footer article{
+        width: 90%;
+        margin: auto;
+    }
+    #secdinner{
+        flex-direction: column;
+        padding-bottom: 3rem; 
+        margin-bottom: 2rem;   
+    }
+    #secdinner article{
+        width: 100%;
+        text-align: center;
+        }
+}
+
+
