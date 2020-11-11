@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!-- FontAwsome -->
+    <script src="https://kit.fontawesome.com/9a299dc914.js" crossorigin="anonymous"></script>
+    <!-- GoogleFonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@500&family=Merienda:wght@700&display=swap" rel="stylesheet">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-------------------------JS------------------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+        $('.flexslider').flexslider();
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id="divlogo">
+                <img id="logo" src="images/logo.png" alt="logo"> 
+                <a href="#"><strong><i class="fas fa-star"></i> Freshly Restaurant <i class="fas fa-star"></i></strong> </a> 
+            </div>
+            <nav>          
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="#">Menus</a>
+                <a href="contact.html">Contact</a>   
+            </nav>
+        </header>  
+        <main id="maincontact">
+            <section id="sec1contact">
+                <h1><i class="fas fa-star"></i> Contact us <i class="fas fa-star"></i></h1>
+                <p>If your want to make a reservation, please complete this form.
+                </p>
+                <p>Fields with <i class="fas fa-star"></i> are required.</p>
+                
+                    <form>
+                        <fieldset class="form1"> 
+                            <legend>Reservation</legend>
+                            <label><i class="fas fa-star"></i> Date</label>
+                            <input type="date" name="date" id="date">  
+                            <label><i class="fas fa-star"></i> Time</label>
+                            <input type="time" name="time" id="time">
+                            <label><i class="fas fa-star"></i> Number of guests</label>
+                            <input type="number" step="1" value="0" min="0" max="10" id="guest">
+                        </fieldset>
+                        <fieldset class="form1">
+                            <legend>Details</legend>
+                            <label><i class="fas fa-star"></i> Name</label>
+                            <input type="text" name="name" id="name">  
+                            <label>Email</label>
+                            <input type="email" name="mail" id="mail">
+                            <label><i class="fas fa-star"></i> Telephone</label>
+                            <input type="tel" name="tel" id="tel">
+                        </fieldset>
+                        <fieldset class="form2">
+                            <label for="story"><span>Further request</span></label>
+                            <textarea id="story" name="story" rows="5" cols="33"></textarea>
+                        </fieldset>
+                            <input id="ok" type="submit" value="Reserve" >
+                    </form>
+            </section>
+            <section id="sec2contact">
+                <h2><i class="fas fa-star"></i> Our location <i class="fas fa-star"></i></h2>
+                <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-74.00591254234315%2C40.732344244383206%2C-74.00180339813234%2C40.73479131379856&amp;layer=mapnik" style="border: 1px solid black"></iframe>
+            </section>
+            
+        </main>      
+    </div>
+        <footer>
+            <div class="footer">
+                <article>
+                    <h4>Opening hours</h4>
+                    <p>Monday: Closed</p>
+                    <p>Tue-Wed : 9am - 10pm</p>
+                    <p>Thu-Fri : 9am - 10pm</p>
+                    <p>Sat-Sun : 5pm - 10pm</p>
+                </article>
+                <article>
+                    <h4>Contact</h4>
+                    <p>13 Christopher Street</p>
+                    <p>New York,</p>
+                    <p>NY 10014-3543</p>
+                    <p>+01 2000 800 9999</p>
+                </article>
+                <article>
+                    <h4>Social networks</h4>
+                    <div>
+                        <a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                        <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer">  <i class="fab fa-instagram"></i></a>
+                        <a href="http://www.pinterest.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-pinterest-p"></i></a>
+                       
+                    </div>    
+                </article>
+            </div>
+            <img id="logo3wa" src="https://3wa.fr/wp-content/themes/3wa2015/img/logos/big.png" alt="logo 3W Academy">
+            <p id="pf">Cet exercice de 3W Academyest mis à disposition pour l'usage personnel des étudiants, Pas de Rediffusion - Attribution - Pas d'Utilisation Commerciale - Pas de Modification - International.Les autorisations au-delà du champ de cette licence peuvent être obtenues auprès de contact@3wa.fr. Les maquettes ont été réalisées par Justine Muller>.</p>
+        </footer>
+    
+</body>
+</html>
